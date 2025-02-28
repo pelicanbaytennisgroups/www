@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.5.0...v1.6.0) (2025-02-28)
+
+
+### Features
+
+* hugo build ([99b8106](https://github.com/pelicanbaytennisgroups/www/commit/99b81065873faaf8562c03c2ff3f5f56ca7ded48))
+
 # [1.5.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.4.0...v1.5.0) (2025-02-28)
 
 
