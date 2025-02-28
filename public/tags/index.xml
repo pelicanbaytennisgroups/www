@@ -1,8 +1,8 @@
 <rss version="2.0">
     <channel>
-        <title>Tags on Site Title</title>
-        <link>http://localhost:1313/tags/</link>
-        <description>Recent content in Site Title</description>
+        <title>Tags on Pelican Bay Tennis Groups</title>
+        <link>/tags/</link>
+        <description>Recent content in Pelican Bay Tennis Groups</description>
 
          
             

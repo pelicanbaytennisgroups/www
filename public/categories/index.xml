@@ -1,8 +1,8 @@
 <rss version="2.0">
     <channel>
-        <title>Categories on Site Title</title>
-        <link>http://localhost:1313/categories/</link>
-        <description>Recent content in Site Title</description>
+        <title>Categories on Pelican Bay Tennis Groups</title>
+        <link>/categories/</link>
+        <description>Recent content in Pelican Bay Tennis Groups</description>
 
          
             
