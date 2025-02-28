@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.3.0...v1.4.0) (2025-02-28)
+
+
+### Features
+
+* try to cleanup languages config ([f7a7647](https://github.com/pelicanbaytennisgroups/www/commit/f7a7647afd4650d44bedc553c82be23e73093a33))
+
 # [1.3.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.2.0...v1.3.0) (2025-02-28)
 
 
