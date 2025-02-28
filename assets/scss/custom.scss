@@ -1,0 +1,88 @@
+// Custom styles for Pelican Bay Tennis Groups
+
+.pairings-list {
+  margin: 2rem 0;
+  
+  .pairings-files {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    li {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      border-radius: 0.25rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: #e9ecef;
+        transform: translateY(-3px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+        
+        &:before {
+          content: "📄 ";
+          margin-right: 0.5rem;
+        }
+        
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
+
+// Custom header and footer styles
+.footer-bg {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+// Tennis themed accent colors
+:root {
+  --tennis-green: #8DAA91;
+  --tennis-yellow: #F5E960;
+}
+
+// Apply tennis colors to elements
+a {
+  color: var(--tennis-green);
+  
+  &:hover {
+    color: darken(var(--tennis-green), 15%);
+  }
+}
+
+.btn-primary {
+  background-color: var(--tennis-green);
+  border-color: var(--tennis-green);
+  
+  &:hover {
+    background-color: darken(var(--tennis-green), 10%);
+    border-color: darken(var(--tennis-green), 10%);
+  }
+}
+
+.bg-primary {
+  background-color: var(--tennis-green) !important;
+}
+
+h1, h2, h3 {
+  color: #333;
+  border-color: var(--tennis-yellow);
+}
+
+// Mobile responsive adjustments
+@media (max-width: 768px) {
+  .pairings-list .pairings-files li {
+    padding: 0.75rem;
+  }
+}

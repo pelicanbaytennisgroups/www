@@ -12,29 +12,22 @@ custom_css: []
 images: ["/img/social-share.png"]
 
 github:
-  repo_url: "https://github.com/username/repo/blob/master"
-  show_edit_link: true
+  repo_url: "https://github.com/username/pelicanbaytennisgroups/content/blob/main"
+  show_edit_link: false
 
 social_links:
-  devstats: ""
-  discord: ""
   facebook: ""
-  flickr: ""
-  github: "https://github.com/cncf/dot-org-hugo-theme"
   instagram: ""
-  landscape: ""
-  linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation"
-  mastodon: ""
-  pinterest: ""
-  rss: ""
-  slack: ""
-  stackoverflow: ""
-  threads: ""
-  twitter: ""
-  x: ""
-  youtube: ""
+  linkedin: ""
+  email: "example@example.com"
 
 # Makes the header sticky on tall screens
 sticky_header: true
 # Enable search in header UI
-show_search: true
+show_search: false
+
+# Site info
+site_info:
+  title: "Pelican Bay Tennis Groups"
+  description: "Monthly tennis pairings and schedules for Pelican Bay Tennis Groups"
+  footer_text: "© Pelican Bay Tennis Groups. All rights reserved."
