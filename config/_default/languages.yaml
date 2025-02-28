@@ -4,12 +4,6 @@ en:
   title: "Pelican Bay Tennis Groups"
   params:
     description: "Infomation about Pelican Bay Tennis Groups"
-    ### accessibility ###
-    accessibility:
-      skip_text: "Skip to content"
-      help_url: "/example-page/"
-    github_edit: "Edit this page on GitHub"
-  ### example menu showing children ###
   menu:
     main:
     - identifier: "about"
