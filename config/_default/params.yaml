@@ -1,25 +1,25 @@
 ######################## custom scripts & styles ####################
 
 # Add custom assets relative to /static or via https
-logo_on_white: "/img/logo-b.svg"
-logo_on_black: "/img/logo-w.svg"
+logo_on_white: "/assets/logo.svg"
+logo_on_black: "/assets/logo.svg"
 custom_js: []
 custom_css: []
 
 ######################## custom config ####################
 
 ### default social share image (can also be set per lang) ###
-images: ["/img/social-share.png"]
+images: ["/assets/logo.png"]
 
 github:
-  repo_url: "https://github.com/username/pelicanbaytennisgroups/content/blob/main"
+  repo_url: "https://github.com/pelicanbaytennisgroups/www/blob/main"
   show_edit_link: false
 
 social_links:
   facebook: ""
   instagram: ""
   linkedin: ""
-  email: "example@example.com"
+  email: ""
 
 # Makes the header sticky on tall screens
 sticky_header: true
