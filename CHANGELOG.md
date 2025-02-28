@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.6.0...v1.7.0) (2025-02-28)
+
+
+### Features
+
+* icons ([911bfbd](https://github.com/pelicanbaytennisgroups/www/commit/911bfbd232b28e4c20cc70aaec9dd9645e07bd26))
+
 # [1.6.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.5.0...v1.6.0) (2025-02-28)
 
 
