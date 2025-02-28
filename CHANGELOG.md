@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.2.0...v1.3.0) (2025-02-28)
+
+
+### Features
+
+* add favicon ([c7031fa](https://github.com/pelicanbaytennisgroups/www/commit/c7031fac2f74efb57ed1ea7b47adee424d9a060d))
+
 # [1.2.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.1.1...v1.2.0) (2025-02-28)
 
 
