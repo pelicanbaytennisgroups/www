@@ -9,19 +9,20 @@
     "dev": "npm run dev:start",
     "dev:start": "hugo serve --logLevel info --configDir=config --themesDir=../.. --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
     "dev:start:with-pagefind": "hugo --baseURL=/ --themesDir=../.. --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
-    "dev:build": "hugo --themesDir=../.. --theme=dot-org-hugo-theme"
+    "dev:build": "hugo --themesDir=../.. --theme=dot-org-hugo-theme",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cncf/dot-org-hugo-theme"
+    "url": "https://github.com/pelicanbaytennisgroups/www"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cncf/dot-org-hugo-theme/issues"
+    "url": "https://github.com/pelicanbaytennisgroups/www/issues"
   },
-  "homepage": "https://github.com/cncf/dot-org-hugo-theme#readme",
+  "homepage": "https://github.com/pelicanbaytennisgroups/www#readme",
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "hugo-extended": "^0.144.0",
@@ -30,6 +31,12 @@
     "postcss-cli": "^11"
   },
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "prettier": "^3.0.3",
+    "semantic-release": "^24.2.3"
   }
 }
