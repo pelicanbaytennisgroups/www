@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pelicanbaytennisgroups/www/compare/v1.0.0...v1.1.0) (2025-02-28)
+
+
+### Features
+
+* configure cross repo pushes ([0a53b35](https://github.com/pelicanbaytennisgroups/www/commit/0a53b3587f3a5d93a2874e7370ec3563512f2251))
+
 # 1.0.0 (2025-02-28)
 
 
