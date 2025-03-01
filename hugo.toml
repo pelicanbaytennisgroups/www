@@ -1,4 +1,5 @@
 baseURL = 'https://pelicanbaytennisgroups.com/'
 languageCode = 'en-us'
 title = 'Pelican Bay Tennis Groups'
-theme = 'mini'
+theme = ["hugo-embed-pdf-shortcode", "mini"]
+enableInlineShortcodes = true
