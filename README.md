@@ -6,58 +6,31 @@
 
 This is the website for Pelican Bay Tennis Groups, built with Hugo and the Dot Org Hugo Theme.
 
-## Structure
-
-The website consists of two repositories:
-
-1. **Main Website Repository** (this repo) - Contains the Hugo site configuration, layouts, and theme
-2. **Content Repository** - Contains just the content (text and PDFs) that gets synchronized to this repo
-
 ## Development
 
-### Prerequisites
+### Dependencies
 
-- Hugo (extended version)
-- Node.js and npm
+This repo uses the following hugo projects, directly commited to the repo as we've modified them:
+
+- <https://github.com/nodejh/hugo-theme-mini>
+- <https://github.com/anvithks/hugo-embed-pdf-shortcode>
 
 ### Running Locally
 
 ```bash
-# Install dependencies
-npm install
-
 # Start development server
-npm run dev
+hugo serve
 ```
 
 ### Build
 
 ```bash
-# Build for production
-npm run build
+HUGO_ENV=production hugo build
 ```
 
 ## Content Updates
 
 All content updates should be made in the separate content repository. That repository uses GitHub Actions to automatically sync changes to this repository.
-
-## How It Works
-
-1. The content repository contains:
-   - Markdown files for website content
-   - PDF files for tennis pairings
-   - GitHub Actions workflow to sync with the main repo
-
-2. When content is updated, GitHub Actions copies the files to the content directory in this repository
-
-3. The website displays a list of tennis pairings using a custom shortcode that reads the PDF files
-
-## Customization
-
-- Edit `config/_default/hugo.yaml` to change site configuration
-- Edit `config/_default/params.yaml` to change site parameters
-- Edit layout files in `layouts/` to customize the site appearance
-- Add custom CSS in `assets/scss/`
 
 ## Deployment
 
