@@ -1,2 +1,5 @@
 node_modules
 public/
+public/index.xml
+public/sitemap.xml
+public/page/index.xml
