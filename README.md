@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/logo.png" width="35%" align="center" alt="logo">
+    <img src="static/images/avatar.png" width="35%" align="center" alt="logo">
 </p>
 
 # Pelican Bay Tennis Groups Website
