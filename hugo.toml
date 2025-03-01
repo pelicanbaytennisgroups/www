@@ -6,5 +6,5 @@ enableInlineShortcodes = true
 
 [module]
   [[module.mounts]]
-    source = 'content'
-    target = 'static'
+    source = 'content/pdfs'
+    target = 'static/pdfs'
