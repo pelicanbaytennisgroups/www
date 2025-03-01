@@ -3,3 +3,9 @@ languageCode = 'en-us'
 title = 'Pelican Bay Tennis Groups'
 theme = ["hugo-embed-pdf-shortcode", "mini"]
 enableInlineShortcodes = true
+
+[module]
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+  excludeFiles = ['page/_template.md']

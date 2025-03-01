@@ -86,3 +86,9 @@ params:
     ## e.g.
     # - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
+
+module:
+  mounts:
+  - source: content
+    target: content
+    excludeFiles: ['page/_template.md']
