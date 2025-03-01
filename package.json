@@ -1,29 +1,27 @@
 {
-  "name": "pelicanbaytennisgroups",
-  "version": "1.7.0",
-  "description": "Pelican Bay Tennis Groups Website",
+  "name": "dot-org-hugo-theme",
+  "version": "1.0.0",
+  "description": "",
   "main": "none.js",
   "scripts": {
     "build": "hugo --theme=dot-org-hugo-theme",
-    "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc",
-    "dev": "hugo serve --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender",
-    "semantic-release": "semantic-release"
+    "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+    "dev": "npm run dev:start",
+    "dev:start": "hugo serve --logLevel info --configDir=config --themesDir=../.. --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+    "dev:start:with-pagefind": "hugo --baseURL=/ --themesDir=../.. --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
+    "dev:build": "hugo --themesDir=../.. --theme=dot-org-hugo-theme"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelicanbaytennisgroups/www"
+    "url": "https://github.com/cncf/dot-org-hugo-theme"
   },
-  "keywords": [
-    "tennis",
-    "pelican bay",
-    "tennis groups"
-  ],
-  "author": "Pelican Bay Tennis Groups",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pelicanbaytennisgroups/www/issues"
+    "url": "https://github.com/cncf/dot-org-hugo-theme/issues"
   },
-  "homepage": "https://github.com/pelicanbaytennisgroups/www#readme",
+  "homepage": "https://github.com/cncf/dot-org-hugo-theme#readme",
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "hugo-extended": "^0.144.0",
@@ -32,12 +30,6 @@
     "postcss-cli": "^11"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^13.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.1",
-    "@semantic-release/release-notes-generator": "^14.0.3",
-    "prettier": "^3.0.3",
-    "semantic-release": "^24.2.3"
+    "prettier": "^3.0.3"
   }
 }
