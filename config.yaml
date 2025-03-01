@@ -30,13 +30,7 @@ markup:
     renderer:
       unsafe: true
 
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  # e.g.
-  # github: your-github-link
-  # twitter: your-twitter-link
-  # stackoverflow: your-stackoverflow-link
-  # facebook: your-facebook-link
+# Social links are now moved under params section
 
 
 # Site parameters
@@ -47,7 +41,14 @@ params:
   bio: Organizer
   # Site Description, used in HTML meat
   description: Groups for Tennis
-
+  
+  # Social links in footer, support github,twitter,stackoverflow,facebook
+  social:
+    # e.g.
+    # github: your-github-link
+    # twitter: your-twitter-link
+    # stackoverflow: your-stackoverflow-link
+    # facebook: your-facebook-link
 
   ###########################################
   # Optional Configuration
