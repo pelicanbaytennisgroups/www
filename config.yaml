@@ -1,4 +1,4 @@
-baseURL: https://pelicanbaytennisgroups.com
+baseURL: https://pelicanbaytennisgroups.com/
 languageCode: en-us
 title: Pelican Bay Tennis Groups
 theme: ["hugo-embed-pdf-shortcode", "mini"]
