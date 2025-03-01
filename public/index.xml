@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pelican Bay Tennis Groups</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Pelican Bay Tennis Groups</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>March - 2025</title>
+      <link>http://localhost:1313/page/march-2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/march-2025/</guid>
+      <description>&lt;p&gt;This folder (&lt;code&gt;page&lt;/code&gt;) is where you can create a new post. Each &lt;code&gt;.md&lt;/code&gt; document corresponds to a new post automatically.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be adding the ability for you to embed the PDFs themselves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pelican Bay Tennis Groups</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Description of the Pelican Bay Tennis Teams and how to join&lt;/p&gt;&#xA;&lt;h2 id=&#34;available-groups&#34;&gt;Available Groups&lt;/h2&gt;&#xA;&lt;p&gt;Fill in here&lt;/p&gt;&#xA;&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How to find and join a tennis group&lt;/li&gt;&#xA;&lt;li&gt;How to get a court&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;groups&#34;&gt;Groups&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MatchPoint&lt;/li&gt;&#xA;&lt;li&gt;The Players&lt;/li&gt;&#xA;&lt;li&gt;Raffo Sunday&lt;/li&gt;&#xA;&lt;li&gt;Stuart&amp;rsquo;s MWF&lt;/li&gt;&#xA;&lt;li&gt;Mixed Doubles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;team-description&#34;&gt;Team Description&lt;/h2&gt;&#xA;&lt;p&gt;Fill in here&lt;/p&gt;&#xA;&lt;h2 id=&#34;team-rules&#34;&gt;Team Rules&lt;/h2&gt;&#xA;&lt;p&gt;Fill in here&lt;/p&gt;&#xA;&lt;h2 id=&#34;apply-to-join-the-group-link-to-a-google-form&#34;&gt;Apply to Join the Group (link to a Google Form)&lt;/h2&gt;&#xA;&lt;p&gt;Fill in here&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-sign-up-for-play-dates&#34;&gt;How To Sign Up For Play Dates&lt;/h2&gt;&#xA;&lt;p&gt;Fill in here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
