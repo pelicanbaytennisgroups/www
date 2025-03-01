@@ -52,10 +52,11 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
-        run: git submodule update --remote --merge && HUGO_ENV=production hugo build || true
+        run: |
+          git submodule update --remote --merge
+          HUGO_ENV=production hugo build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
