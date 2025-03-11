@@ -9,6 +9,15 @@
 
   <body>
     {{ partial "navigation.html" . }}
+    
+    <div class="banner-container">
+      <img src="{{ "/images/pb-tennis-banner.jpg" | relURL }}" alt="Pelican Bay Tennis" class="site-banner" />
+      <div class="banner-overlay">
+        <span class="banner-text left">Pelican Bay</span>
+        <img class="banner-logo" src="{{ "/images/avatar.png" | relURL }}" alt="Tennis Logo" />
+        <span class="banner-text right">Tennis Groups</span>
+      </div>
+    </div>
 
     <main class="main">
       {{ block "main" . }}{{ end }}
