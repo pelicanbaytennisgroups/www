@@ -89,4 +89,4 @@ module:
   mounts:
   - source: content
     target: content
-    excludeFiles: ['**/README.md', '**/_template.md']
+    excludeFiles: ['**/README.md', '**/_template.md', '**/example.md']
