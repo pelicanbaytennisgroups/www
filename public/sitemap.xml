@@ -2,16 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pelicanbaytennisgroups.com/page/matchpointinfo/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/march-2025/</loc>
+    <loc>https://pelicanbaytennisgroups.com/page/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://pelicanbaytennisgroups.com/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://pelicanbaytennisgroups.com/page/groupsummaries/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://pelicanbaytennisgroups.com/page/top/</loc>
+    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://pelicanbaytennisgroups.com/page/matchpointmembers/</loc>
+    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/page/playersmembers/</loc>
+    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/page/example/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/about/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/page/playersinfo/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/categories/</loc>
+  </url><url>
+    <loc>https://pelicanbaytennisgroups.com/tags/</loc>
   </url>
 </urlset>
