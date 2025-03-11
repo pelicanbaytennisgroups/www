@@ -92,6 +92,8 @@ pre {
 }
 .markdown-image img {
   max-width: 100%;
+  margin: auto;
+  display: block
 }
 .anchor { 
   font-size: 100%; 
@@ -250,7 +252,7 @@ nav.navigation a.button {
 /* profile  */
 
 .profile {
-  margin: 60px auto 0 auto;
+  margin: 10px auto 0 auto;
   text-align: center;
 }
 
@@ -275,6 +277,8 @@ nav.navigation a.button {
   font-weight: 300;
   color: #757575;
   margin-top: 0;
+  opacity: 0;
+  display: none;
 }
 
 /* index post list */
@@ -351,7 +355,7 @@ nav.navigation a.button {
 /* single page */
 #single {
   max-width: 680px;
-  margin: 60px auto 0 auto;
+  margin: 25px auto 0 auto;
   padding: 0 64px;
 }
 
