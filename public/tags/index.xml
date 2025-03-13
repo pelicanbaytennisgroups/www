@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pelican Bay Tennis Groups</title>
-    <link>https://pelicanbaytennisgroups.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Pelican Bay Tennis Groups</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://pelicanbaytennisgroups.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

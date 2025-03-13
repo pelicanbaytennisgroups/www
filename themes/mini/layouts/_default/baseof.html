@@ -26,5 +26,45 @@
     </main>
     
     {{ partial "footer.html" . }}
+    
+    <div id="scroll-indicator" class="scroll-indicator">
+      <img src="{{ "/images/scroll-down.gif" | relURL }}" alt="Scroll down" />
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const scrollIndicator = document.getElementById('scroll-indicator');
+        
+        // Check if page has enough content to scroll
+        function checkScroll() {
+          if(document.body.scrollHeight > window.innerHeight + 100) {
+            scrollIndicator.style.display = 'block';
+          } else {
+            scrollIndicator.style.display = 'none';
+          }
+        }
+        
+        // Check scroll position to fade out indicator
+        function handleScroll() {
+          const scrollPosition = window.scrollY;
+          const maxScroll = document.body.scrollHeight - window.innerHeight;
+          const scrollPercentage = (scrollPosition / maxScroll) * 100;
+          
+          if (scrollPercentage > 80) {
+            scrollIndicator.style.opacity = '0';
+          } else {
+            scrollIndicator.style.opacity = '1';
+          }
+        }
+        
+        // Initial check
+        checkScroll();
+        handleScroll();
+        
+        // Add event listeners
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', checkScroll);
+      });
+    </script>
   </body>
 </html>
