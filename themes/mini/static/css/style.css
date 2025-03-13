@@ -18,7 +18,7 @@ button:focus, a:focus {
 
 body {
   line-height: 1;
-  font: normal 18px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 16px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333333;
   line-height: 1.75;
   letter-spacing: 0.01em;
@@ -273,34 +273,34 @@ nav.navigation a.button {
 .toc {
   margin: auto;
   background: #f0f5fa;
-  border-radius: 8px;
-  padding: 18px 15px;
-  margin-top: 36px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-top: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   border: 1px solid #d0e0f0;
 }
 .toc details summary {
   cursor: zoom-in;
-  margin-inline-start: 14px;
-  font-weight: 700;
-  font-size: 20px;
+  margin-inline-start: 8px;
+  font-weight: 600;
+  font-size: 14px;
   color: #004080;
-  padding: 8px 0;
+  padding: 4px 0;
 }
 .toc details[open] summary {
   cursor: zoom-out;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 .toc #TableOfContents {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .toc ul {
-  padding-inline-start: 24px;
-  font-size: 18px;
-  line-height: 1.8;
+  padding-inline-start: 15px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 .toc ul li {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 /* comment */
@@ -594,7 +594,7 @@ nav.navigation a.button {
 
 #single .content {
   margin-top: 36px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.8;
 }
 

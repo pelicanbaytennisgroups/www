@@ -10,6 +10,7 @@
   <body>
     {{ partial "navigation.html" . }}
     
+    {{ if .IsHome }}
     <div class="banner-container">
       <img src="{{ "/images/pb-tennis-banner.jpg" | relURL }}" alt="Pelican Bay Tennis" class="site-banner" />
       <div class="banner-overlay">
@@ -18,6 +19,7 @@
         <span class="banner-text right">Tennis Groups</span>
       </div>
     </div>
+    {{ end }}
 
     <main class="main">
       {{ block "main" . }}{{ end }}
