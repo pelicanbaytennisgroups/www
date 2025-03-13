@@ -11,10 +11,6 @@
         <span>{{ .Description }}</span>
       </div>
     {{ end }}
-    
-    {{ if or $.Site.Params.showToc .Params.showToc }}
-        {{ partial "toc.html" . }}
-    {{ end }}
 
     <div class="content">
       {{ .Content }}
