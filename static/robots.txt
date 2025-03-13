@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /page/groups/
+
+# Allow Googlebot to access everything
+User-agent: Googlebot
+Allow: /
+Disallow: /page/groups/
+
+# Allow Bingbot to access everything
+User-agent: Bingbot
+Allow: /
+Disallow: /page/groups/
+
+# Sitemap location
+Sitemap: https://pelicanbaytennisgroups.com/sitemap.xml
