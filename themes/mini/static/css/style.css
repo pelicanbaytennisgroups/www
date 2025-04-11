@@ -750,8 +750,8 @@ nav.navigation a.button {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100px; /* doubled from 50px */
-  height: 100px; /* doubled from 50px */
+  width: 33.3px; /* Reduced to 1/3 of 100px */
+  height: 33.3px; /* Reduced to 1/3 of 100px */
   z-index: 100;
   opacity: 1;
   transition: opacity 0.5s ease;
